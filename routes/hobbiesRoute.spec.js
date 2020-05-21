@@ -8,6 +8,7 @@ describe("hobbiesRoute", () => {
         .get("/api")
         .then((response) => {
           expect(response.status).toBe(200);
+          //  expect(Array.isArray(res.body)).toBe(true);
         });
     });
   });
